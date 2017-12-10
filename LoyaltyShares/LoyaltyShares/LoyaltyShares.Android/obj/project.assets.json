@@ -648,6 +648,18 @@
           "build/MonoAndroid70/Xamarin.Android.Support.Core.Utils.targets": {}
         }
       },
+      "Xamarin.Android.Support.CustomTabs/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.CustomTabs.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.CustomTabs.dll": {}
+        }
+      },
       "Xamarin.Android.Support.Design/25.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -840,6 +852,21 @@
           "build/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
+      "Xamarin.Auth/1.5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.CustomTabs": "23.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/MonoAndroid10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/2.4.0.282": {
         "type": "package",
         "dependencies": {
@@ -874,6 +901,7 @@
         "dependencies": {
           "LoyaltyShares.Services": "1.0.0",
           "Prism.Unity.Forms": "7.0.0.168-pre",
+          "Xamarin.Auth": "1.5.0.3",
           "Xamarin.Forms": "2.4.0.282"
         },
         "compile": {
@@ -3618,6 +3646,16 @@
         "xamarin.android.support.core.utils.nuspec"
       ]
     },
+    "Xamarin.Android.Support.CustomTabs/23.3.0": {
+      "sha512": "OQ/Uj2FDEWi8CD2AXXeNOOvy47z2QHywdGsMnGtf5n+nXATZvpg9+Xx/p1JLefccDM4Q0KRC0gO4QpQkDyuZ8A==",
+      "type": "package",
+      "path": "xamarin.android.support.customtabs/23.3.0",
+      "files": [
+        "lib/MonoAndroid403/Xamarin.Android.Support.CustomTabs.dll",
+        "xamarin.android.support.customtabs.23.3.0.nupkg.sha512",
+        "xamarin.android.support.customtabs.nuspec"
+      ]
+    },
     "Xamarin.Android.Support.Design/25.4.0.2": {
       "sha512": "V7eOsG2XYLFDcH69ZJxywa2PrgFLi2tVpmft3iJ1vHrzeagI33dAVxDuh41r+TW6NVqPwBRQ5DRkAPZjwSAkeA==",
       "type": "package",
@@ -3751,6 +3789,40 @@
         "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll",
         "xamarin.android.support.vector.drawable.25.4.0.2.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
+      ]
+    },
+    "Xamarin.Auth/1.5.0.3": {
+      "sha512": "h3IqwjZ/VaGduLBcVBLmZKpNoj2Gvg3syTm+/LprB0Li5dJxY0XwiqfKzUq0VwrLlne4xlYW+fqnLj8gSCLL2g==",
+      "type": "package",
+      "path": "xamarin.auth/1.5.0.3",
+      "files": [
+        "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/MonoAndroid10/Xamarin.Auth.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.pri",
+        "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/win81/Xamarin.Auth.dll",
+        "lib/win81/Xamarin.Auth.pdb",
+        "lib/win81/Xamarin.Auth.pri",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/win81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/wp8/Xamarin.Auth.dll",
+        "lib/wp8/Xamarin.Auth.pdb",
+        "lib/wpa81/Xamarin.Auth.dll",
+        "lib/wpa81/Xamarin.Auth.pdb",
+        "lib/wpa81/Xamarin.Auth.pri",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/wpa81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "xamarin.auth.1.5.0.3.nupkg.sha512",
+        "xamarin.auth.nuspec"
       ]
     },
     "Xamarin.Forms/2.4.0.282": {
@@ -3960,6 +4032,7 @@
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
       "Xamarin.Android.Support.v7.CardView >= 25.4.0.2",
       "Xamarin.Android.Support.v7.MediaRouter >= 25.4.0.2",
+      "Xamarin.Auth >= 1.5.0.3",
       "Xamarin.Forms >= 2.4.0.282"
     ]
   },
@@ -4000,6 +4073,10 @@
     "frameworks": {
       "monoandroid80": {
         "dependencies": {
+          "Xamarin.Auth": {
+            "target": "Package",
+            "version": "1.5.0.3"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "2.4.0.282"
@@ -4031,5 +4108,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.CustomTabs 23.3.0 requires Xamarin.Android.Support.v4 (= 23.3.0) but version Xamarin.Android.Support.v4 25.4.0.2 was resolved.",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    }
+  ]
 }
