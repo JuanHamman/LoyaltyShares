@@ -210,6 +210,15 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "LoyaltyShares.Services/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Services.dll": {}
+        }
       }
     }
   },
@@ -1182,10 +1191,16 @@
         "xamarin.forms.2.4.0.282.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "LoyaltyShares.Services/1.0.0": {
+      "type": "project",
+      "path": "../../LoyaltyShares.Services/LoyaltyShares.Services.csproj",
+      "msbuildProject": "../../LoyaltyShares.Services/LoyaltyShares.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "LoyaltyShares.Services >= 1.0.0",
       "NETStandard.Library >= 2.0.0",
       "Prism.Unity.Forms >= 7.0.0.168-pre",
       "Xamarin.Forms >= 2.4.0.282"
@@ -1223,7 +1238,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Services\\LoyaltyShares.Services.csproj": {
+              "projectPath": "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Services\\LoyaltyShares.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

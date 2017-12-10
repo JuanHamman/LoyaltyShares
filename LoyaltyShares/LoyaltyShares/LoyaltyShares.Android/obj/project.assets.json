@@ -872,6 +872,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LoyaltyShares.Services": "1.0.0",
           "Prism.Unity.Forms": "7.0.0.168-pre",
           "Xamarin.Forms": "2.4.0.282"
         },
@@ -880,6 +881,15 @@
         },
         "runtime": {
           "bin/placeholder/LoyaltyShares.dll": {}
+        }
+      },
+      "LoyaltyShares.Services/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Services.dll": {}
         }
       }
     }
@@ -3934,6 +3944,11 @@
       "type": "project",
       "path": "../LoyaltyShares/LoyaltyShares.csproj",
       "msbuildProject": "../LoyaltyShares/LoyaltyShares.csproj"
+    },
+    "LoyaltyShares.Services/1.0.0": {
+      "type": "project",
+      "path": "../../LoyaltyShares.Services/LoyaltyShares.Services.csproj",
+      "msbuildProject": "../../LoyaltyShares.Services/LoyaltyShares.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
