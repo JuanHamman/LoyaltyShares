@@ -1,2 +1,61 @@
+# Autosave files
+*~
 
-*.lock
+# build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+
+# Mac bundle stuff
+*.dmg
+*.app
+
+# resharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
+
+.droidres/
+Resource.Designer.cs
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/db.lock
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide-wal
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares/.vs/LoyaltyShares/v15/Server/sqlite3/storage.ide-wal
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/db.lock
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-wal
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-wal
+*.ide-wal
+*.ide
+*.ide-shm
+*.ide-wal
