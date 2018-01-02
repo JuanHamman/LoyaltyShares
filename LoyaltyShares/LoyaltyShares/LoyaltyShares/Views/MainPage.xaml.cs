@@ -11,7 +11,12 @@ namespace LoyaltyShares.Views
 	{
 		public MainPage ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
-	}
+
+        private void SelectedAd(object sender, SelectedItemChangedEventArgs e)
+        {
+            AdList.SelectedItem = null;
+        }
+    }
 }

@@ -2,10 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LoyaltyShares.Views.MainPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             x:Name="MainPage">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+    <StackLayout>
+        <ListView x:Name="AdList" ItemsSource="{Binding ListOfAdds}" HasUnevenRows="True" ItemSelected="SelectedAd">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout VerticalOptions="StartAndExpand" Padding="2" BackgroundColor="#f2f2f2" Margin="0,0,0,4">
+                            <Image Source="{Binding Image}" HorizontalOptions="FillAndExpand" HeightRequest="200" VerticalOptions="FillAndExpand" Aspect="AspectFill"></Image>
+                            <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand"></Label>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
+                                <Button Text="Share" Command="{Binding Path=BindingContext.Share, Source={x:Reference MainPage}}" CommandParameter="{Binding .}" HorizontalOptions="EndAndExpand"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>

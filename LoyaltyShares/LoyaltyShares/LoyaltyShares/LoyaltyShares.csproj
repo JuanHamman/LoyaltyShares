@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\LoyaltyShares.Models\LoyaltyShares.Models.csproj" />
     <ProjectReference Include="..\..\LoyaltyShares.Services\LoyaltyShares.Services.csproj" />
   </ItemGroup>
 

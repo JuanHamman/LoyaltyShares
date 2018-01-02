@@ -261,6 +261,15 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "LoyaltyShares.Models/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        }
+      },
       "LoyaltyShares.Services/1.0.0": {
         "type": "project",
         "compile": {
@@ -1348,6 +1357,11 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "LoyaltyShares.Models/1.0.0": {
+      "type": "project",
+      "path": "../../LoyaltyShares.Models/LoyaltyShares.Models.csproj",
+      "msbuildProject": "../../LoyaltyShares.Models/LoyaltyShares.Models.csproj"
+    },
     "LoyaltyShares.Services/1.0.0": {
       "type": "project",
       "path": "../../LoyaltyShares.Services/LoyaltyShares.Services.csproj",
@@ -1356,6 +1370,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "LoyaltyShares.Models >= 1.0.0",
       "LoyaltyShares.Services >= 1.0.0",
       "NETStandard.Library >= 2.0.0",
       "PCLCrypto >= 2.0.147",
@@ -1397,6 +1412,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Models\\LoyaltyShares.Models.csproj": {
+              "projectPath": "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Models\\LoyaltyShares.Models.csproj"
+            },
             "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Services\\LoyaltyShares.Services.csproj": {
               "projectPath": "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Services\\LoyaltyShares.Services.csproj"
             }

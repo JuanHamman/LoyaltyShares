@@ -12,7 +12,7 @@ D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\nets
 D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\netstandard2.0\LoyaltyShares.AssemblyInfo.cs
 D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\netstandard2.0\LoyaltyShares.dll
 D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\netstandard2.0\LoyaltyShares.pdb
-D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\netstandard2.0\LoyaltyShares.dll.mdb
-D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\bin\Debug\netstandard2.0\LoyaltyShares.dll.mdb
+D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\bin\Debug\netstandard2.0\LoyaltyShares.Models.dll
+D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\bin\Debug\netstandard2.0\LoyaltyShares.Models.pdb
 D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\obj\Debug\netstandard2.0\LoyaltyShares.dll.mdb
 D:\Github\LoyaltyShares\LoyaltyShares\LoyaltyShares\LoyaltyShares\bin\Debug\netstandard2.0\LoyaltyShares.dll.mdb

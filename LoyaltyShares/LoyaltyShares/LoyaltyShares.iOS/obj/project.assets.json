@@ -797,6 +797,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LoyaltyShares.Models": "1.0.0",
           "LoyaltyShares.Services": "1.0.0",
           "PCLCrypto": "2.0.147",
           "Prism.Unity.Forms": "7.0.0.168-pre",
@@ -808,6 +809,15 @@
         },
         "runtime": {
           "bin/placeholder/LoyaltyShares.dll": {}
+        }
+      },
+      "LoyaltyShares.Models/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
         }
       },
       "LoyaltyShares.Services/1.0.0": {
@@ -1552,6 +1562,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LoyaltyShares.Models": "1.0.0",
           "LoyaltyShares.Services": "1.0.0",
           "PCLCrypto": "2.0.147",
           "Prism.Unity.Forms": "7.0.0.168-pre",
@@ -1563,6 +1574,15 @@
         },
         "runtime": {
           "bin/placeholder/LoyaltyShares.dll": {}
+        }
+      },
+      "LoyaltyShares.Models/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
         }
       },
       "LoyaltyShares.Services/1.0.0": {
@@ -2307,6 +2327,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LoyaltyShares.Models": "1.0.0",
           "LoyaltyShares.Services": "1.0.0",
           "PCLCrypto": "2.0.147",
           "Prism.Unity.Forms": "7.0.0.168-pre",
@@ -2318,6 +2339,15 @@
         },
         "runtime": {
           "bin/placeholder/LoyaltyShares.dll": {}
+        }
+      },
+      "LoyaltyShares.Models/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
         }
       },
       "LoyaltyShares.Services/1.0.0": {
@@ -3062,6 +3092,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LoyaltyShares.Models": "1.0.0",
           "LoyaltyShares.Services": "1.0.0",
           "PCLCrypto": "2.0.147",
           "Prism.Unity.Forms": "7.0.0.168-pre",
@@ -3073,6 +3104,15 @@
         },
         "runtime": {
           "bin/placeholder/LoyaltyShares.dll": {}
+        }
+      },
+      "LoyaltyShares.Models/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoyaltyShares.Models.dll": {}
         }
       },
       "LoyaltyShares.Services/1.0.0": {
@@ -6089,6 +6129,11 @@
       "type": "project",
       "path": "../LoyaltyShares/LoyaltyShares.csproj",
       "msbuildProject": "../LoyaltyShares/LoyaltyShares.csproj"
+    },
+    "LoyaltyShares.Models/1.0.0": {
+      "type": "project",
+      "path": "../../LoyaltyShares.Models/LoyaltyShares.Models.csproj",
+      "msbuildProject": "../../LoyaltyShares.Models/LoyaltyShares.Models.csproj"
     },
     "LoyaltyShares.Services/1.0.0": {
       "type": "project",
