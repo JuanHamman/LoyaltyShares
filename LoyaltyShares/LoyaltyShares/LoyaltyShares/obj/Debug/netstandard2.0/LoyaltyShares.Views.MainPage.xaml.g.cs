@@ -11,8 +11,8 @@
 namespace LoyaltyShares.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\Views\\MainPage." +
-        "xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Repos\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\Views\\MainPage.x" +
+        "aml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

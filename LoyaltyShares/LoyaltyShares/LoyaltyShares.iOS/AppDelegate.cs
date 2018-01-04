@@ -23,6 +23,9 @@ namespace LoyaltyShares.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App(new iOSInitializer()));
 
+            //Xamarin.Auth
+            global::Xamarin.Auth.Presenters.XamarinIOS.AuthenticationConfiguration.Init();
+
             return base.FinishedLaunching(app, options);
         }
     }

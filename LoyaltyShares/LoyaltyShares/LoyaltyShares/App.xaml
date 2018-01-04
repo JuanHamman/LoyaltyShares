@@ -5,10 +5,30 @@
              x:Class="LoyaltyShares.App">
     <prism:PrismApplication.Resources>
         <ResourceDictionary>
-            <!-- Application resource dictionary -->
+            
+            <!--Colors-->
+            <Color x:Key="FacebookBlue">#3b5998</Color>
+
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="#4d004d" />
                 <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+
+            <!--Blue Button style-->
+            <Style x:Key="BlueButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BorderColor" Value="Transparent" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource FacebookBlue}" />
+                <Setter Property="HeightRequest">
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="35"/>
+                        <On Platform="iOS" Value="30"/>
+                    </OnPlatform>
+                </Setter>
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="BorderWidth" Value="3" />
+                <Setter Property="TextColor" Value="White" />
             </Style>
         </ResourceDictionary>
     </prism:PrismApplication.Resources>

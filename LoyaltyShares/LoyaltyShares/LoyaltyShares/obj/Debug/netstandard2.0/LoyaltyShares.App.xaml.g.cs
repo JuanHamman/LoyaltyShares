@@ -11,7 +11,7 @@
 namespace LoyaltyShares {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Repos\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\App.xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
