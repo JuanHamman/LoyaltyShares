@@ -4,5 +4,9 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="LoyaltyShares.Views.LoginPage">
-  
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
+        <Image Source="LSLogo"/>
+        <Label Text="Please login with FB in order to start sharing."/>
+        <Button Text="Login" Style="{StaticResource BlueButtonStyle}" Command="{Binding FacebookLoginCommand}"/>
+    </StackLayout>
 </ContentPage>

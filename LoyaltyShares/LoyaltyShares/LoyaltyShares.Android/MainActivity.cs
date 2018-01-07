@@ -16,6 +16,9 @@ namespace LoyaltyShares.Droid
 
             base.OnCreate(bundle);
 
+            //Xamarin.Auth
+            global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, bundle);
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
         }
