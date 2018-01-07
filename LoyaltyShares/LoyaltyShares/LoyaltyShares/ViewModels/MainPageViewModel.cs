@@ -18,6 +18,7 @@ namespace LoyaltyShares.ViewModels
         private ObservableCollection<AddsModel> _ListOfAdds;
         
         public Command Share { get; private set; }
+        public Command MoreInformation { get; private set; }
 
         public ObservableCollection<AddsModel> ListOfAdds
         {
@@ -30,6 +31,7 @@ namespace LoyaltyShares.ViewModels
         {
             Title = "Browse";
             Share = new Command(async (data) => { await ShareTheAdd(data as AddsModel); });
+            MoreInformation = new Command(async (data) => { await ShowMoreInformation(data as AddsModel); });
 
             //set stub data.
             ListOfAdds = new ObservableCollection<AddsModel>(new List<AddsModel>()
@@ -62,8 +64,22 @@ namespace LoyaltyShares.ViewModels
             try
             {
                 //share the add to facebook.
+                await PageDialogService.DisplayAlertAsync("Yay", "Could not share this add.", "OK");
             }
             catch(Exception ex)
+            {
+                await PageDialogService.DisplayAlertAsync("Error", "Could not share this add.", "OK");
+            }
+        }
+
+        private async Task ShowMoreInformation(AddsModel model)
+        {
+            try
+            {
+                //share the add to facebook.
+                await PageDialogService.DisplayAlertAsync("Information", "This is informations about this ad.", "Cool");
+            }
+            catch (Exception ex)
             {
                 await PageDialogService.DisplayAlertAsync("Error", "Could not share this add.", "OK");
             }

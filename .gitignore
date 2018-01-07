@@ -55,6 +55,13 @@ LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-wal
 LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide
 LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-shm
 LoyaltyShares_API/.vs/LoyaltyShares_API/v15/Server/sqlite3/storage.ide-wal
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/db.lock
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide-wal
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide-shm
+LoyaltyShares_Web/.vs/LoyaltyShares_Web/v15/Server/sqlite3/storage.ide-wal
 *.ide-wal
 *.ide
 *.ide-shm

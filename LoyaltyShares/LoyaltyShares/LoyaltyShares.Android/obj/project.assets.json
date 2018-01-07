@@ -4226,7 +4226,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\micha\\.nuget\\packages\\": {}
+    "C:\\Users\\micha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4238,15 +4239,20 @@
       "outputPath": "D:\\Github\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares\\LoyaltyShares.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid80"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Github\\NUGET_PACKAGES\\Http_Plugin\\Http_Plugin": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4264,39 +4270,39 @@
         "dependencies": {
           "PCLCrypto": {
             "target": "Package",
-            "version": "2.0.147"
-          },
-          "Xamarin.Auth": {
-            "target": "Package",
-            "version": "1.5.0.3"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "2.4.0.282"
-          },
-          "Xamarin.Android.Support.Design": {
-            "target": "Package",
-            "version": "25.4.0.2"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "25.4.0.2"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "25.4.0.2"
-          },
-          "Xamarin.Android.Support.v7.CardView": {
-            "target": "Package",
-            "version": "25.4.0.2"
-          },
-          "Xamarin.Android.Support.v7.MediaRouter": {
-            "target": "Package",
-            "version": "25.4.0.2"
+            "version": "[2.0.147, )"
           },
           "Prism.Unity.Forms": {
             "target": "Package",
-            "version": "7.0.0.168-pre"
+            "version": "[7.0.0.168-pre, )"
+          },
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[25.4.0.2, )"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "[25.4.0.2, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[25.4.0.2, )"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "[25.4.0.2, )"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "[25.4.0.2, )"
+          },
+          "Xamarin.Auth": {
+            "target": "Package",
+            "version": "[1.5.0.3, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[2.4.0.282, )"
           }
         }
       }
